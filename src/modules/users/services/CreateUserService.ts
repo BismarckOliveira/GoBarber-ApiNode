@@ -11,6 +11,7 @@ interface Request {
 
   password: string;
 }
+
 @injectable()
 class CreateUserService {
   constructor(
